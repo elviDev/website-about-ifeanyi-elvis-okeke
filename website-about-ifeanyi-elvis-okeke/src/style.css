@@ -1,0 +1,129 @@
+body {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #053B50;
+    color: #053B50;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 8px solid #053B50;
+}
+
+header h1 {
+    margin: 10px 0 0;
+    font-size: 2.5em;
+    color: #053B50;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #053B50;
+}
+
+main h2 {
+    font-size: 1.8em;
+    color: #053B50;
+    border-bottom: 1px dotted #053B50;
+    padding-bottom: 10px;
+}
+
+.intro p, .goals ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+  text-align: justify;
+}
+
+.goals li i {
+    margin-right: 10px;
+    color: #161A30;
+}
+
+.goals li:hover {
+    background-color: #f4f4f9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gallery {
+    background-color: white;
+    border-radius: 8px;
+}
+.gallery-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
+  border-radius: 8px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #053B50;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #053B50;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #053B50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #053B60;
+}
+.contact a {
+    color: #161A30;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+.top {
+    border-top: 1px dotted #053B50;
+  padding-top: 10px;
+}
